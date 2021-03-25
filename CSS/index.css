@@ -5,11 +5,7 @@ body {
   background-attachment: fixed;
   margin: auto;
 }
-h1 {
-  text-align: center;
-}
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -43,11 +39,42 @@ nav ul {
   color: #ff9900;
   text-align: center;
   font-size: 64px;
-  margin-top: 30px;
   stroke: #000;
-  padding-top: 20px;
 }
 #logo {
   display: block;
   text-align: center;
+}
+hr{
+  border-top: 2px solid #000;
+  margin: 30px;
+}
+#motto{
+  text-align: center;
+  font-size: 64px;
+}
+#orange{
+  color: #ff9900;
+}
+.main-text{
+  text-align: center;
+  font-size: 48px;
+}
+.active{
+  color:#ff9900;
+  background-color: #fff;
+}
+.slideshow{
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  padding: 16px;
+  background-color: #fff;
+}
+.slideshow img{
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
