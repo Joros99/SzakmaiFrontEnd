@@ -45,36 +45,46 @@ nav ul {
   display: block;
   text-align: center;
 }
-hr{
+hr {
   border-top: 2px solid #000;
   margin: 30px;
 }
-#motto{
+#motto {
   text-align: center;
   font-size: 64px;
 }
-#orange{
+#orange {
   color: #ff9900;
 }
-.main-text{
+.main-text {
   text-align: center;
   font-size: 48px;
 }
-.active{
-  color:#ff9900;
+.active {
+  color: #ff9900;
   background-color: #fff;
 }
-.slideshow{
+.slideshow {
   width: 70%;
   height: 70%;
   margin: auto;
   padding: 16px;
   background-color: #fff;
 }
-.slideshow img{
+.slideshow img {
   height: 400px;
   width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#social {
+  position: relative;
+  float:right;
+}
+footer {
+  background-color: #ff9900;
+}
+#copyright{
+  text-align: center;
 }
