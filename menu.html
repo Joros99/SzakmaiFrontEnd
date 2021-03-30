@@ -5,37 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="CSS/index.css" rel="stylesheet" />
-    <title>Főoldal</title>
+    <link href="CSS/menu.css" rel="stylesheet"/>
+    <title>Menu</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a class="active" href="index.html">Főoldal</a></li>
-        <li><a href="menu.html">Menü</a></li>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="menu.html" class="active">Menü</a></li>
         <li><a href="gallery.html">Galéria</a></li>
-        <li><a href="">Munkalehetőség</a></li>
-        <li><a href="">Rólunk</a></li>
+        <li><a>Munkalehetőség</a></li>
+        <li><a>Rólunk</a></li>
       </ul>
     </nav>
-    <div id="logo">
-      <span id="food">Food</span><span id="factory">Factory</span>
+    <div class="container">
+      <div class="food-container">
+        <img src="img/food1.jpg">
+        <p>food name</p>
+      </div><div class="food-container">
+        <img src="img/food2.jpg">
+        <p>food name</p>
+      </div>
+      <div class="food-container">
+        <img src="img/food3.jpg">
+        <p>food name</p>
+      </div>
+      <div class="food-container">
+        <img src="img/food1.jpg">
+        <p>food name</p>
+      </div><div class="food-container">
+        <img src="img/food2.jpg">
+        <p>food name</p>
+      </div>
+      <div class="food-container">
+        <img src="img/food3.jpg">
+        <p>food name</p>
+      </div>
     </div>
-    <hr />
-    <p id="motto">
-      Az <span id="orange">étel</span> íze a sótól, az ember íze a szótól.
-    </p>
-    <hr />
-    <p class="main-text">Betekintő a kínálatainkhoz:</p>
-    <div class="slideshow">
-      <img src="img/food1.jpg" />
-    </div>
-    <hr />
+    <hr>
     <footer>
       <div class="mail">
         <p>Tegye fel a kérdését:</p>
         <input type="text" placeholder="Email cim:" />
-        <textarea rows="5" cols="42" />Üzenet
-      </textarea>
+        <textarea rows="5" cols="42" />Üzenet</textarea>
         <br />
         <input type="submit" value="submit" />
       </div>

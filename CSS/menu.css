@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.food-container img{
+  display: inline;
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.food-container{
+  display: block;
+  width: 33%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}

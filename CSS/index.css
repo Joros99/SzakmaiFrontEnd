@@ -5,16 +5,16 @@ body {
   background-attachment: fixed;
   margin: auto;
 }
-ul {
+nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-li {
+nav ul li {
   float: left;
   font-size: larger;
 }
-li a {
+nav li a {
   display: block;
   color: #000;
   text-align: center;
@@ -78,13 +78,50 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-#social {
-  position: relative;
-  float:right;
+.socials {
+  display: inline;
+  text-align: center;
+  margin: 0;
 }
 footer {
+  display: flex;
   background-color: #ff9900;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-#copyright{
+.copyright{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+.socials, .mail, .contact{
+  width: 33%;
+}
+.mail{
+  margin-left: 8px;
+}
+.mail input {
+  width: 70%;
+}
+.mail p, .socials p, .contact p{
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.socials img {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.socials li{
+  float: left;
+  padding: 18px;
+}
+.socials ul, .contact ul{
+  list-style-type: none;
+}
+.contact{
   text-align: center;
 }
