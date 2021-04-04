@@ -1,6 +1,16 @@
-.first{
-
+.first,
+.second {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 12%;
+  margin-right: 12%;
 }
-.second{
-    
+.first img,
+.second img {
+  width: 205px;
+  height: 400px;
+  display: inline-block;
+  object-fit: cover;
+  border: 1px solid #000;
 }

@@ -90,23 +90,27 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.copyright{
+.copyright {
   text-align: center;
   width: 100%;
   font-size: 20px;
 }
-.socials, .mail, .contact{
+.socials,
+.mail,
+.contact {
   width: 33%;
 }
-.mail{
+.mail {
   margin-left: 8px;
 }
 .mail input {
   width: 70%;
 }
-.mail p, .socials p, .contact p{
+.mail p,
+.socials p,
+.contact p {
   font-size: 20px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .socials img {
   width: 64px;
@@ -115,13 +119,36 @@ footer {
   margin-left: 50%;
   margin-right: 50%;
 }
-.socials li{
+.socials li {
   float: left;
   padding: 18px;
 }
-.socials ul, .contact ul{
+.socials ul,
+.contact ul {
   list-style-type: none;
 }
-.contact{
+.contact ul,
+.contact p {
+  padding: 0 100px;
+}
+.mapouter{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.cover img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.description{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: larger;
+}
+.description h1{
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
