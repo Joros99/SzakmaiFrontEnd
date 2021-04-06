@@ -26,38 +26,52 @@
     </p>
     <hr />
     <p class="main-text">Betekintő a kínálatainkhoz:</p>
-    <div class="slideshow">
-      <img src="img/slideshow/food1.jpg" />
+    <div class="slideshow-container">
+      <button class="left-button" onclick="plusDivs(-1)">
+        &#10094;
+      </button>
+      <button class="right-button" onclick="plusDivs(1)">
+        &#10095;
+      </button>
+      <div class="mySlide">
+        <img src="img/slideshow/food1.jpg" />
+      </div>
+      <div class="mySlide">
+        <img src="img/slideshow/food2.jpg" />
+      </div>
+      <div class="mySlide">
+        <img src="img/slideshow/food3.jpg" />
+      </div> 
     </div>
     <hr />
     <footer>
       <div class="mail">
         <p>Tegye fel a kérdését:</p>
         <input type="text" placeholder="Email cim:" />
-        <textarea rows="5" cols="42" />Üzenet
-      </textarea>
+        <textarea rows="5" cols="42" placeholder="Üzenet"> </textarea>
         <br />
         <input type="submit" value="submit" />
       </div>
       <div class="contact">
         <p>Elérhetőségek</p>
         <ul>
-        <li><img src="img/icons/mail.png">support@foodfactory.com</li>
-        <li><img src="img/icons/phone.png">+381064123456</li>
-        <li><img src="img/icons/location.png">Marka Oreškoviċa 16</li>
+          <li><img src="img/icons/mail.png" />support@foodfactory.com</li>
+          <li><img src="img/icons/phone.png" />+381064123456</li>
+          <li><img src="img/icons/location.png" />Marka Oreškoviċa 16</li>
         </ul>
       </div>
       <div class="socials">
         <p id="social">Links to social media</p>
         <ul>
-        <li><img src="img/icons/facebook.png"></li>
-        <li><img src="img/icons/instagram.png"></li>
-        <li><img src="img/icons/twitter.png"></li>
-      </ul>
+          <li><img src="img/icons/facebook.png" /></li>
+          <li><img src="img/icons/instagram.png" /></li>
+          <li><img src="img/icons/twitter.png" /></li>
+        </ul>
       </div>
       <div class="copyright">
         <p>© 2021 - Minden jog fenntartva</p>
       </div>
     </footer>
   </body>
+  <script src="js/slideshow.js"></script>
 </html>
